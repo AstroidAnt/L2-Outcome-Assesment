@@ -16,4 +16,11 @@ header{
   background-image: url(imgbg.jpeg);
 }
 
+h1{
+  margin: auto;
+  font-size: 70px;
+  text-align: center;
+  color: #ded9d9;
+}
+
 
