@@ -48,12 +48,12 @@ header .navigation a{
   transition-property: background;
 }
 
-a {
-background-image: linear-gradient(
+header a {
+  background-image: linear-gradient(
     to right,
     #ded9d9,
     #ded9d9 50%,
-    #342f2c 50%
+    #2f2524 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -65,9 +65,9 @@ background-image: linear-gradient(
   transition: all 0.3s ease-in-out;
 }
 
-a:before {
+header a:before {
   content: '';
-  background:  #ded9d9;
+  background: #ded9d9;
   display: block;
   position: absolute;
   bottom: -3px;
@@ -77,11 +77,11 @@ a:before {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+header a:hover {
  background-position: 0;
 }
 
-a:hover::before {
+header a:hover::before {
   width:100%;
 }
 
@@ -91,5 +91,25 @@ h1 {
   font-size: 80px;
   text-align: center;
   letter-spacing: 2px;
+}
+ .footergradient {
+  width: 100%;
+  padding: 40px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient( 180deg, rgba(000,0,0,0),  #191512);
+}
+
+.footer {
+  background-color: #191512;
+  color: #ded9d9;
+  font-size: 20px;
+  padding: 80px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.footer a{
+  color: #a9a2a2;
 }
 
