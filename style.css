@@ -1,22 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-section{
+section {
   position: relative;
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: url(imgbg.jpeg);
+  background-image: url(imgbg.jpg);
   background-size: cover;
   background-position: center;
 }
 
-header{
+header {
   position: relative;
   top: 0;
   width: 100%;
@@ -24,12 +24,13 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Ysabeau SC', sans-serif;
 }
 
-header .home{
+header .home {
   position: relative;
   color: #ded9d9;
-  font-size: 40px;
+  font-size: 50px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
@@ -37,11 +38,11 @@ header .home{
   display: inline-block;
 }
 
-header .navigation a{
+header .navigation a {
   color: #ded9d9;
   text-decoration: none;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 1px;
   padding: 2px 15px;
   border-radius: 20px;
@@ -49,12 +50,10 @@ header .navigation a{
 }
 
 header a {
-  background-image: linear-gradient(
-    to right,
-    #ded9d9,
-    #ded9d9 50%,
-    #2f2524 50%
-  );
+  background-image: linear-gradient(to right,
+      #ded9d9,
+      #ded9d9 50%,
+      #000000 50%);
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -78,11 +77,11 @@ header a:before {
 }
 
 header a:hover {
- background-position: 0;
+  background-position: 0;
 }
 
 header a:hover::before {
-  width:100%;
+  width: 100%;
 }
 
 h1 {
@@ -90,26 +89,27 @@ h1 {
   margin: 100px auto;
   font-size: 80px;
   text-align: center;
+  font-family: 'Bodoni Moda', serif;
   letter-spacing: 2px;
 }
- .footergradient {
+
+.footergradient {
   width: 100%;
   padding: 40px;
   position: absolute;
   bottom: 0;
-  background: linear-gradient( 180deg, rgba(000,0,0,0),  #191512);
+  background: linear-gradient(180deg, rgba(000, 0, 0, 0), #000000);
 }
 
 .footer {
-  background-color: #191512;
+  background-color: #000000;
   color: #ded9d9;
   font-size: 20px;
   padding: 80px;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Ysabeau SC', sans-serif;
 }
 
-.footer a{
+.footer a {
   color: #a9a2a2;
 }
-
